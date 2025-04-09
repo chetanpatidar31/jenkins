@@ -1,0 +1,45 @@
+> to open jenking go to chrome and type in search bar :-localhost:8085
+> then login with id and password
+> then click on new item
+> then gave name
+> then select pipeline and ok
+> scroll down and paste shell script code
+
+-------------------------------------------------------------------------------------------------------------------------------
+pipeline {
+    agent any
+
+    stages {
+        stage('Clone Repository') {
+            steps {
+                git url: 'https://github.com/SawanPanwar/devops-basics.git', branch: 'main' //change url of the repository//
+            }
+        }
+
+        stage('Deploy Using Docker Compose') {
+            steps {
+                script {
+                    dir('tomcat-docker') {                                                         //change directory name//
+                        bat 'docker-compose down || docker-compose.exe down'
+                        bat 'docker-compose up -d --build || docker-compose.exe up -d --build'
+                    }
+                }
+            }
+        }
+    }
+}
+------------------------------------------------------------------------------------------------------------------------------
+
+> then apply and save
+> go to dashboard
+> your pipeline will be visible there
+> then you run by clicking the start button
+
+ 
+                    > if you want to check then go to docker and then check the container/image and build your build will be there 
+
+
+> then go to chrome and then search :- localhost:8080/file name.html   //tomcat
+  then go to chrome and then search :- localhost:8080/file name.html   //jboss-wildfly
+  then go to chrome and then search :- localhost:4200/file name.html   //nginx
+

@@ -1,0 +1,130 @@
+git pull
+git branch aastik
+git checkout aastik
+git add .
+git commit -am "aastik"
+git push origin aastik
+
+
+git pull origin main
+
+
+
+git checkout -b aastik
+
+
+
+first open reposetory and then open settings and then click collabrate
+and then add user j
+
+server provides services
+client consume services
+
+tom cat server
+
+go to google tom cat 9 download
+
+PORT VALUE 0 - 65000 , 1024-65000 WE USE
+
+0-1023 RESERVED VALUE PORTNO.
+
+TOMCAT 8080 PE RUN KARTA HAI
+
+URL:- UNIFORM RESOURCE LOCATOR
+
+HTTP:- PROTOCOL
+
+LOCALHOST:8080= SOCKET
+
+/anshul4141 = URI = UNIFROM RESOURCE IDENTIFIER
+
+COMBINATION OF PROTOCOL SOCKET AND URI IS = URL
+
+JBOSS OR WILDFLY ME STANDLONE.BAT FILE RUN KARNA REHTI HAI SERVER RUN KARNE KE LIYE
+
+TOMCAT KE LIYE STARTUP.BAT FILE RUN KARNA PADTI HAI 
+
+ngnix is especially for angular
+
+and angular is frontend
+
+we have to manually start nginx
+use cmd start nginx
+
+by default port no is 80
+
+by default port no of http and https is 80
+
+we dont want to write any port no when we see the server start in chore because it was default run in http default port
+
+we only write localhost in search bar
+
+
+to stop nginx server we use cmd that is 
+
+nginx -s stop
+
+
+tomcat - web apps - root - paste html file
+
+wilddly - welcomecontent -paste html file
+
+nginx - html - paste html file - conf - nginx.conf-open with notepad -server me port no change 4200 and location me file name likhna hai
+
+start nginx
+
+nginx -s reload
+
+
+
+
+
+docker:- is virtual container has images 
+
+
+vscode :- code .
+
+from tomcat 9.0
+
+copy aastik.html/
+
+
+
+docker file :-
+
+
+
+docker compose:-configiration
+
+
+jenkins 2.462.1 download from filehorse
+type jenkins 2.462.1 filehorse
+
+login and ec2 launch instance 
+
+name demo
+
+ubuntu
+
+
+
+
+
+
+docker --version
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,35 @@
+that is docker desktop (local)
+
+to run docker we have to create some file like
+
+docker-compose.yml   :-extention in yml
+Docker               :-no extention
+
+and your project folder/file
+
+
+and open cmd and run some cmd to run the docker
+
+>-docker-compose build   to build the image
+>-docker-compose up -d   to build the container and run the container
+>-docker-compose down    to stop the container and delete the container 
+
+
+that is docker hub (global)repo.
+----------------------------------------------------------------------------------------------------------------------
+to use the docker hub we must have docker image in the docker desktop
+
+if we have image in the docker desktop we can push that image in the dockerhub repo. using some command that is 
+
+>-docker login                                                  :-to login the docker
+>-docker tag image name docker_username/image name:tag          :-to gave the tag to the image
+        ex:>-docker tag tomcat-docker-tomcat aastiksahu/tomcat:now
+
+>-docker push docker_username/image name:tag                    :- to push the image in the docker hub repo.
+        ex:>-docker push aastiksahu/tomcat:now
+
+>-docker pull docker_username/image name:tag                      :-to pull the image in the docker hub to where you want to pull
+        ex:>-docker pull aastiksahu/tomcat:now
+
+ 
+
